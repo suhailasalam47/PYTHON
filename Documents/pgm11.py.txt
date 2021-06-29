@@ -1,0 +1,4 @@
+def stringchange(str):
+return str[-1:]+ str[1:-1]+str[ :1]
+print(stringchange("python"))
+print(stringchange("123"))
